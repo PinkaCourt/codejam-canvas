@@ -1,0 +1,86 @@
+logo
+
+
+.main-wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px;
+    background: yellow;
+
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 10px;
+    width: 400px;
+    background-color: blue;
+}
+
+
+.drawing-toolbar {
+    display: flex;
+    margin: auto;
+    border: 2px solid grey;
+    width: 310px;
+    background: #4ab106;
+    height: 120px;
+    /*align-items: center;*/
+
+
+}
+.drawing-toolbar__list {
+    text-decoration: none;
+}
+
+
+
+
+.palette-color {
+    display: flex;
+    margin: auto;
+    border: 2px solid grey;
+    width: 310px;
+    background: #4ab106;
+    height: 120px;
+
+    /*align-items: center;*/
+
+}
+.palette-color__list {
+
+}
+
+.wrapper-Canvas {
+    display: flex;
+    /*right: 10px;*/
+    width: 600px;
+    /*height: 600px;*/
+    background-color: hotpink;
+}
+.canvas {
+    width: 512px;
+    height: 512px;
+    border: 2px solid grey;
+    image-rendering: pixelated;
+
+}
+
+.ChangeMatrix {
+    display: flex;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+
+}
+
+.button {
+    text-transform: capitalize;
+
+}
