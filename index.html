@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CodeJam-Palette</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+      <p class="logo">CodeJam-Palette</p>
+  </header>
+  <main class="main-wrapper">
+    <nav class="nav-wrapper">
+    <section class="drawing-toolbar">
+        <ul class="drawing-toolbar__list">
+            <li>
+                <button id="fill" class="button">flood fill</button>
+            </li>
+            <li>
+                <button id="dropper" class="button">dropper</button>
+            </li>
+            <li>
+                <button id="move" class="button">move</button>
+            </li>
+            <li>
+                <button id="transform" class="button">transform</button>
+            </li>
+          </ul>
+    </section>
+    <section class="palette-color">
+      <ul class="palette-color__list">
+        <li>
+            <button id="current" class="button">current color</button>
+        </li>
+        <li>
+            <button id="prev" class="button">prev color</button>
+        </li>
+        <li>
+            <button id="red" class="button">red</button>
+        </li>
+        <li>
+            <button id="blue" class="button">blue</button>
+        </li>
+      </ul>
+    </nav>
+    </section>
+    <div class="wrapper-Canvas">
+        <canvas class="canvas">
+
+        </canvas>
+
+    </div>
+    <section class="ChangeMatrix">
+      <div> </div>
+    </section>
+  </main>
+  <nav></nav>
+
+
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
