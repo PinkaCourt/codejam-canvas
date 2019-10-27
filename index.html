@@ -11,7 +11,8 @@
   <header>
       <p class="logo">CodeJam-Palette</p>
   </header>
-  <main class="main-wrapper">
+  <main>
+  <div class="main-wrapper">
     <nav class="nav-wrapper">
     <section class="drawing-toolbar">
         <ul class="drawing-toolbar__list">
@@ -47,19 +48,25 @@
     </nav>
     </section>
     <div class="wrapper-Canvas">
-        <canvas class="canvas">
-
-        </canvas>
+        <canvas height='512' width='512' class="canvas" id="canvas"> </canvas>
 
     </div>
     <section class="ChangeMatrix">
+        <ul class="ChangeMatrix__button-list">
+            <li>
+                <button id="4x4" class="button">4x4</button>
+            </li>
+            <li>
+                <button id="32x32" class="button">32x32</button>
+            </li>
+            <li>
+              <button id="image" class="button">image</button>
+          </li>
+          </ul>
       <div> </div>
     </section>
-  </main>
-  <nav></nav>
-
-
-
+  </div>
+</main>
   <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
