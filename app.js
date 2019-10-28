@@ -56,7 +56,7 @@ document.getElementById('32x32').onclick = function() {
     let size = data.length;
     let pixelScale = 512/size;
     for (let j=0; j < data[0].length; j++) {
-      let color = 'rgb ' + '(' + data[i][j].slice(0,3) + ')';
+      let color = 'rgb' + '(' + data[i][j].slice(0,3) + ')';
       ctx.fillStyle = color;
       console.log (color);
       console.log (x, y, pixelScale, pixelScale);
@@ -78,7 +78,7 @@ document.getElementById('image').onclick = function() {
   // Привязываем функцию к событию onload
   // Это указывает браузеру, что делать, когда изображение загружено
   img.onload = function() {
-    ctx.drawImage(img, 50, 50);
+    ctx.drawImage(img, 50, 50, canvas.width, canvas.height);
   };
 
   // Загружаем файл изображения
