@@ -78,7 +78,7 @@ document.getElementById('image').onclick = function() {
   // Привязываем функцию к событию onload
   // Это указывает браузеру, что делать, когда изображение загружено
   img.onload = function() {
-    ctx.drawImage(img, 50, 50, canvas.width, canvas.height);
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
   };
 
   // Загружаем файл изображения
