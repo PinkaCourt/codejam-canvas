@@ -1,0 +1,84 @@
+.logo {
+  text-transform: uppercase;
+  margin: 30px auto auto 70px;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    /*background: yellow;*/
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: blue;*/
+    height: 300px;
+    margin: auto;
+
+}
+
+
+.drawing-toolbar {
+    display: flex;
+    margin: 10px;
+    border: 2px solid grey;
+    width: 200px;
+    /*background: #4ab106;*/
+    height: 120px;
+}
+
+.drawing-toolbar__list {
+    text-decoration: none;
+}
+
+
+
+
+.palette-color {
+    display: flex;
+    margin: 10px;
+    border: 2px solid grey;
+    width: 200px;
+    /*background: #4ab106;*/
+    height: 120px;
+
+}
+.palette-color__list {
+
+}
+
+.wrapper-Canvas {
+    display: flex;
+    width: 512px;
+    height: 512px;
+    margin: auto;
+
+}
+.canvas {
+    border: 2px solid grey;
+
+}
+
+.ChangeMatrix {
+    display: flex;
+    width: 150px;
+    /*background-color: tomato;*/
+    height: 100px;
+    margin: auto;
+    border: 2px solid grey;
+
+}
+
+.button {
+    text-transform: capitalize;
+    margin: 1px;
+
+}
+
+
+li {
+  list-style-type:  none;
+}
+
